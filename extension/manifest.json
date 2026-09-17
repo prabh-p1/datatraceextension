@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "DataTrace",
+  "version": "0.1.0",
+  "description": "Trace any claim to its primary sources. Get a TraceScore without leaving the page.",
+  "permissions": ["contextMenus", "storage", "sidePanel"],
+  "host_permissions": ["https://festive-trace-truth-lab.base44.app/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "DataTrace" },
+  "side_panel": { "default_path": "sidepanel.html" }
+}
